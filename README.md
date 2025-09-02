@@ -95,6 +95,12 @@ You will get a printout from you run that contains your optimal k-mer size. Writ
 
 ![image](https://github.com/BINF-3101/Lab3_de_novo_assembly_part2/assets/47755288/e16a4883-1e12-4f6d-a3ea-458546df2f12)
 
+If you cannot find the predicted K you can find it using this command
+
+```bash
+ grep "Predicted best k" out_file_report.html
+```
+
 ## LQ 1
 
 What k-mer size was chosen for you by kmergenie?
