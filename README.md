@@ -101,6 +101,8 @@ If you cannot find the predicted K you can find it using this command
  grep "Predicted best k" out_file_report.html
 ```
 
+If you do not see a best predicted K - see Dr. LaBella for the correct K to use. 
+
 ## LQ 1
 
 What k-mer size was chosen for you by kmergenie?
