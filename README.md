@@ -115,7 +115,7 @@ Now we will use a genome assembler called ABySS (Assembly By Short Sequences). W
 Copy the slurm script from the class folder to your directory where you have the sequence files
 
 ```bash
-cp /projects/class/binf3101_001/abyss.slurm .
+cp /projects/class/binf3101_001/lab_3/abyss.slurm .
 ```
 
 **TIP** The "." in the command above means "here". You are copying (cp) the first file (/projects/class/binf3101_001/abyss.slurm) to here (.)
