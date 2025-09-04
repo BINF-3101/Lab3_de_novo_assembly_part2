@@ -213,7 +213,8 @@ Navigate into the folder containing your results and open/cat the report.txt fil
 ## LQ 2
 
 Report the following genome statistics in the Canvas assignment
-- contigs under 1000 bp ( contigs (>= 0b bp) )
+- contigs greater or equal to 100bp (# contigs (>= 1000 bp))
+- contigs less than 1000 bp (you will need to calculate this using two numbers)
 - size of the largest contig
 - total length of the genome
 - N50 value
@@ -226,7 +227,7 @@ In the Quast output you should see a line that says "All statistics are based on
 
 Copy the script from the class folder
 ```bash
-cp /projects/class/binf3101_001/filter_by_length.py .
+cp /projects/class/binf3101_001/lab_3/filter_by_length.py .
 ```
 
 This will copy the script to your current directory
@@ -243,7 +244,7 @@ Now we will filter the genome to remove contigs that are less than 500bp long.
 
 ```bash
 module load anaconda3
-python filter_by_length.py SRRXXXXXXX-contigs.v1.fa SRRXXXXXXX-contigs.v2.fa 500 NyourlargestN
+python filter_by_length.py SRRXXXXXXX-contigs.v1.fa SRRXXXXXXX-contigs.v2.fa 500 SIZE_OF_LARGEST_CONTIG
 ```
 
 Don't forget! You will need to change the larger number to your biggest contig size. 
