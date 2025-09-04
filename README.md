@@ -126,8 +126,7 @@ cp /projects/class/binf3101_001/lab_3/abyss.slurm .
 
 You will need to edit the slurm script to include your k-mer number after "k=" and change SRXXXXXX to your SRR number
 
-![image](https://github.com/user-attachments/assets/58dd1308-5db4-47d9-af28-8727f806c0fb)
-
+<img width="885" height="576" alt="image" src="https://github.com/user-attachments/assets/7b50ac44-7982-424e-b3ad-4142928dbd4c" />
 
 Refer to lab #1 if you need help remembering how to edit a file using vi or nano. 
 
