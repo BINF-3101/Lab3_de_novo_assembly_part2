@@ -213,7 +213,7 @@ Navigate into the folder containing your results and open/cat the report.txt fil
 ## LQ 2
 
 Report the following genome statistics in the Canvas assignment
-- contigs greater or equal to 100bp (# contigs (>= 1000 bp))
+- contigs greater or equal to 1000bp (# contigs (>= 1000 bp))
 - contigs less than 1000 bp (you will need to calculate this using two numbers)
 - size of the largest contig
 - total length of the genome
